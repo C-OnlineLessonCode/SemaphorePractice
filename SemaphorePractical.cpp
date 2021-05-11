@@ -33,7 +33,7 @@ int main()
 	HANDLE threads[10] = {};
 
 	for (int i = 0; i < std::size(threads); ++i) {
-		DWORD threadId = 0; // TID
+		DWORD threadId = 0;
 		threads[i] = CreateThread(
 			0,
 			0,
